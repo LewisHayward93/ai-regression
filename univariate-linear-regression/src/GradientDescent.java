@@ -65,7 +65,7 @@ public class GradientDescent {
       // ----------------------------------------------
     }
 
-    System.out.println("Final Equation: h(x) = (" + w2 + " * x_2) + (" + w1 + " * x_1) + " + w0);
+    System.out.println("Final Equation: h(x) = (" + w2 + " * x^2) + (" + w1 + " * x_1) + " + w0);
   }
 
   static void sleep(int ticks) {
